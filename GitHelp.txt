@@ -1,0 +1,15 @@
+команды для регистрации данных
+git config --global user.name "имя в гитхабе"
+git config --global user.email "your email"
+
+команды для одного проекта
+
+git init - (активирует гит)отслеживает все изменения
+git remote add origin (link_to_repository, ссылка на репозиторий) | добавление репозитория
+
+git status | статус репозитория
+
+git add .  | добавление файлов в буфер обмена
+git commit -m "massage" | сохранение всего из буфера обмена
+
+git push origin main | отправка сохранений на GitHub

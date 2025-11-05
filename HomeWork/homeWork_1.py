@@ -9,14 +9,16 @@ class Robot:
     def action(self):
         return f'имя {self.name},цвет {self.color} профессия {self.work}'
 #2
-    def cooking(H12):
-        return f'{H12} is cooking!'
+    def cooking(self):
+        return f'{self} is cooking!'
 
-    def working(P13):
-        return f'{P13} is working!'
+    def working(self):
+        return f'{self} is working!'
 
 # 2 объекта
 H12 = Robot("H12", "red", "cook")
 P13 = Robot("P13", "blue"," builder")
 print(H12.action())
-print(P13.working())
+print(P13.action())
+
+
